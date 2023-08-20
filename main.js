@@ -15,7 +15,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
 // Load the model
 let model;
 (async () => {
-    const hostedModelURL = 'https://femmecab-2a79f.web.app';
+    const hostedModelURL = 'https://raw.githubusercontent.com/Saakshi-D/Converted_tjfs/main/model.json';
     model = await tf.loadLayersModel(hostedModelURL);
     console.log('Model loaded');
     detectGesture(); // Start detecting gestures
