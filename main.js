@@ -43,7 +43,7 @@ async function detectGesture() {
     displayPrediction(prediction, inputTensor);
 
     // Call the detectGesture function recursively for real-time processing
-    requestAnimationFrame(detectGesture);
+    requestAnimationFrame(detectGesture());
 }
 
 
